@@ -1,0 +1,52 @@
+
+
+
+html{
+	background-color : #00539f;
+}
+
+body {
+	background-color : #00c957;
+	width : 850px;
+	margin : 0 auto;
+	border : 5px solid black
+}
+
+img {
+	display : block;
+	margin : 0 auto;
+	border : 10px ridge gold;
+	border-radius : 100%;
+}
+
+div {
+	text-align : left;
+	width : 60%;
+	display : block;
+	margin : 100px auto 50px auto;
+}
+
+
+a {
+	font-family : serif;
+	font-size : 14px;
+	text-decoration : none;
+}
+
+a:link { 
+	color : #0266c8;
+}
+
+a:hover {
+	color : orangered;
+}
+
+a:active {
+	color : black;
+}
+
+
+p {
+	font-family: 'Courgette', cursive;
+	line-height : 1.5;
+}

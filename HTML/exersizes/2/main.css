@@ -1,0 +1,66 @@
+
+
+header, section, article, aside, footer {
+
+	text-align : center;
+	background-color : #E6E6E6;
+	font-weight : bold;
+	font-size : 18px;
+	font-family : serif;
+}
+
+
+header {
+
+	height : 150px;
+	margin : 10px auto;
+	line-height : 150px;
+}
+
+
+
+div {
+
+	display : flex;
+	justify-content : space-between;
+	height : 500px;
+	margin : 10px auto;
+}
+
+
+section {
+	
+	display : inline-block;
+	width : 60%;
+	line-height : 240px;
+
+}
+
+
+aside {
+
+	display : inline-block;
+	width : 39.5%;
+	line-height : 500px;
+}
+
+article {
+
+	width : 98%;
+	height : 50%;
+	position : inherit;
+	background-color : #C8C8C8;
+	margin : auto 1% auto 1%;
+}
+
+
+footer {
+
+	height : 150px;
+	line-height : 150px; 
+}
+
+
+
+
+

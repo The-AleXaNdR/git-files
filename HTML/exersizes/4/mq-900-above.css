@@ -1,0 +1,16 @@
+
+#aside1, #aside2 {
+	width : 20%;
+	height : 300px;
+	line-height : 300px;
+}
+
+#aside1 {
+	order : -1;
+}
+
+
+#article {
+	width : 60%;
+}
+

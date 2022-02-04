@@ -1,0 +1,74 @@
+body {
+
+	background-image : url("img/fog.jpg");
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : top center;
+}
+
+
+
+h1 {
+    color: #094562;
+    font-size : 3.5rem;
+    margin : 10px auto;
+    text-align: center;
+}
+
+
+nav {
+	
+	display : flex;
+	justify-content : center;
+}
+
+ul {
+	display : flex;
+	flex-flow : row wrap;
+	justify-content : center;
+}
+
+
+li {
+    	color: #094562;
+	margin : 10px 2rem  10px 2rem ;
+	border : 1px solid blue;
+	border-radius : 3px;
+	width : 100px;
+	height : 25px;
+	text-align : center;
+}
+
+li:hover {
+	color : ghostwhite;
+}
+
+
+
+
+div {
+	height : 20rem;
+    	text-align: center;
+    	margin : 2rem;
+}
+
+.box-1 {
+    background-color : rgba(54, 255, 153, 0.25);
+
+}
+
+.box-2 {
+    background-color: rgba(78, 110, 255, 0.25);
+
+}
+
+.box-3 {
+    background-color: rgba(255, 141, 97, 0.25);
+
+}
+
+.box-4 {
+    background-color: rgba(197, 43, 255, 0.25);
+}
+
