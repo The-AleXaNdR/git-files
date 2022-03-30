@@ -1,0 +1,75 @@
+* {
+margin : 0;
+padding : 0;
+}
+
+body {
+// background-color : blue;
+}
+
+a {
+text-decoration : none;
+}
+
+a:active {
+color : black;
+}
+
+
+a:hover {
+color : blue;
+}
+
+
+header {
+height : 400px;
+width : 100%;
+// background-color : grey;
+background-image : url("/home/alex/Pictures/bg1.jpg");
+background-size : cover;
+
+display : flex;
+flex-direction : column;
+align-items : center;
+justify-content : center;
+}
+
+
+header > div {
+height : 60px;
+border : 1px solid white;
+background-color : white;
+
+display : flex;
+align-items : center;
+
+}
+
+header > div > * {
+margin : 0px 10px;
+}
+
+header > div > input {
+height : 40px;
+width : 250px;
+margin-left : 20px;
+background-color : white;
+border : 2px solid white;
+padding : 0px 20px;
+}
+
+header > div > input:focus {
+outline : 2px solid #eeeeee;
+border-radius : 5px;
+}
+
+
+header > div > a {
+// border : 1px solid black;
+padding : 0px 20px;
+}
+
+
+
+
+
